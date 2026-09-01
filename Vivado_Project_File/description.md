@@ -1,1 +1,1 @@
-This folder contains the Vivado XPR ie project file itself. If this opens up properly in your device, then you dont need to go through the cubersome process of setting it up
+This folder contains the Vivado XPR ie project file itself. If this opens up properly in your device, then you dont need to go through the cubersome process of setting it up. Just have single_real_sample_tb as your "set as top" testbench and you are good to go. Its then up to you to add the signals onto the waveform to validate your own doubts and beliefs on the results
