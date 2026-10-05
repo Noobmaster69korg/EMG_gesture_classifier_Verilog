@@ -125,7 +125,7 @@ module top_mp5(
     );
   //  wire reset_data;
  //   wire clk_2;
-  (*dont_touch = "true"*)  wire signed [31:0] qq [63:0];
+    (*dont_touch = "true"*)  wire signed [31:0] qq [63:0]; // holds output of pre_fetch layer
   (*dont_touch = "true"*)  wire signed [31:0] qa;
   (*dont_touch = "true"*)  wire signed [38:0] qc; // to hold outputs of dense2 which are fed into hardmax
   (*dont_touch = "true"*)  wire signed [31:0] qb [63:0];
